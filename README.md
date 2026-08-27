@@ -18,6 +18,7 @@ I have completed entry-level Cybersecurity training and hands-on labs covering s
 ## Projects and Labs
 This portfolio contains my cybersecurity projects, practical labs, investigations and learning exercises.
 https://github.com/wanjojoyce/Cybersecurity-Portfolio/blob/main/Cybersecurity-project-1.md
+https://github.com/wanjojoyce/Cybersecurity-Portfolio/blob/main/SOC-Alert-Investigation.md
 
 ## Career Goal
 I am seeking an entry-level cybersecurity opportunity where I can apply my technical skills, continue learning, and contribute to a security team.
