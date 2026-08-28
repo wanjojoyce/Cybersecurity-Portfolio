@@ -45,3 +45,69 @@ The alert required further investigation because the parent-child process relati
 - Process analysis
 - NIST Cybersecurity Framework
 
+  ## Investigation 2: Inbound Email Containing Suspicious External Link
+
+Alert Details
+
+Severity: Medium
+Classification: Phishing
+Date: August 23, 2026
+Alert Time: 12:45
+Data Source: Email
+Direction: Inbound
+
+## Email Information
+
+Subject: Action Required: Finalize your Onboarding Profile
+Sender: onboarding@hrconnex.thm
+Recipient: j.garcia@thetrydaily.thm
+
+The email appeared to be an onboarding-related message asking the recipient to complete their profile setup through an external link.
+
+## Investigation Objectives
+The objective was to determine whether the external link represented a potential phishing threat, to establish whether any 
+endpoints had attempted to access the URL and to also determine whether it is a true positive.
+
+## Investigation Steps
+
+- Reviewed the alert details and email metadata.
+- Examined the sender, recipient, subject, and email content.
+- Reviewed the external link included in the email.
+- Checked firewall or proxy logs for connections to the URL
+- Determined whether any endpoints attempted to access the URL
+- Checked whether the connections were allowed or blocked
+- Used the available evidence to assess the risk associated with the alert
+
+ ## Key Indicators
+
+The alert was classified as phishing because the sender's domain was suspicious and did not match the recipient's company domain, also because the subject line seems suspicious " Action Required, Finalize your Onboarding Profile".
+
+## Recommendations
+
+-  I validated the Inbound Email as a true Positive
+-  Blocked the suspicious URL/domain
+-  Identified whether Garcia clicked on the link
+-  Isolated any affected endpoint
+-  Reset credentials if they may have been exposed
+-  Recommended that the problem should be escalated
+
+  ## Skills Demonstrated
+  - Security alert investigation
+  - Phishing alert analysis
+  - Email security analysis
+  - Log analysis
+  - Incident response
+
+    ## Tools and Concepts
+    - SIEM concepts
+    - Email security
+    - Firewalls and Proxy logs
+    - Phishing Investigation
+   
+    ## Key Takeaway
+
+    These investigations strengthened my understanding of how a SOC Analyst approaches security alerts from initial detection through investigation and response. I learned to examine alert details, analyze suspicious processes and email indicators, review relevant logs assess the likelihood of a true positive, and recommend appropriate containment and defensive actions based on the available evidence. 
+
+
+
+
