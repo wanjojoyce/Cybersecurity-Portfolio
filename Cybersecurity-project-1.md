@@ -20,20 +20,36 @@ OWASP
 
 ## Projects
 
-### 1. Suspicious Process Investigation
-Investigated a security alert involving a suspicious process and analyzed the Parent-Child process relationship to determine 
-whether the activity was potentially malicious.
+### Suspicious Process Investigation
+This project involved investigating a security alert involving a suspicious process and an uncommon parent-child process relationship.
 
-### 2. Log Analysis with Python
-Used python to parse and analyze security logs and identify relevant security events
+### Objective
+The main objective of the investigation was to review the available information and identify if it was a true positive- determining whether the suspicious activity represented a genuine security threat.
 
-### 3. SIEM Alert Investigation
-Practiced investigating security alerts using SIEM concepts, analyzing event data, timestamps, and indicators of suspicious
-activity.
+###  Investigation
+During the investigation, I analyzed the alert information and examined the relationship between the parent and child. I considered:
+
+-The parent process
+- The child process
+- The process relationship
+- The available information
+- Indicators that could help determine whether the activity was legitimate or malicious
+
+### Skills Demonstrated
+
+- Security alert investigation
+- Process analysis
+- Threat analysis
+- True positive identification
+- SOC investigation concepts
+- Incident response concepts
+
+  ## Key Takeaway
+
+  This exercise helped me understand how a SOC analyst investigates security alerts and uses available evidence to determine whether an alert represents a genuine security threat.
 
 ## Certification
 - Google Cybersecurity Professional Certificate
 
   ## Career Goals
-Seeking an entry-level Cybersecurity Analyst or SOC Analyst opportunity where I can apply my cybersecurity knowledge, continue 
-learning, and contribute to an organization's security operations.
+I am Seeking an entry-level Cybersecurity Analyst or SOC Analyst opportunity where I can apply my cybersecurity knowledge, continue learning, and contribute to an organization's security operations.
