@@ -7,16 +7,16 @@ threat detection, incident response, and defensive security.
 
 ## Skills
 
-Security Operations (SOC)
-SIEM and Log analysis
-Network Security
-Threat Detection
-Incident Response
-Vulnerability Management
-Linux
-Python
-NIST Cybersecurity Framework
-OWASP
+-Security Operations (SOC)
+-SIEM and Log analysis
+-Network Security
+-Threat Detection
+-Incident Response
+-Vulnerability Management
+-Linux
+-Python
+-NIST Cybersecurity Framework
+-OWASP
 
 ## Projects
 
