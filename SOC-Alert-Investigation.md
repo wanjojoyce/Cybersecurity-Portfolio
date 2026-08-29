@@ -47,18 +47,18 @@ The alert required further investigation because the parent-child process relati
 
   ## Investigation 2: Inbound Email Containing Suspicious External Link
 
-Alert Details
+## Alert Details
 
-Severity: Medium
-Classification: Phishing
-Date: August 23, 2026
-Alert Time: 12:45
-Data Source: Email
-Direction: Inbound
+-Severity: Medium
+-Classification: Phishing
+-Date: August 23, 2026
+-Alert Time: 12:45
+-Data Source: Email
+-Direction: Inbound
 
 ## Email Information
 
-Subject: Action Required: Finalize your Onboarding Profile
+Subject: Action Required; Finalize your Onboarding Profile
 Sender: onboarding@hrconnex.thm
 Recipient: j.garcia@thetrydaily.thm
 
